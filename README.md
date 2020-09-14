@@ -17,19 +17,19 @@ RFC period would typically last for 1 week.
 
 DeFiChain's consensus is to allow masternodes to make a vote on DFIPs. One masternode one vote.
 
-As on-chain voting is not yet available, temporary voting procedure would be as follows:
+As on-chain voting is not yet available, voting will be conducted using message signing and verification process as follows:
 
-1. A voting snapshot block would be announced.
+1. A voting snapshot block would be announced at respective DFIP issues.
 
-2. Each masternodes will have at least 1 week to vote. Voting is currently carried out by signing a message from masternode owner signifying either a yes or no.
+2. Each masternodes will have around 1 week to post a voting proof. Voting is carried out by signing a message from masternode owner with the desired decision.
 
 3. Submit the vote before the closing date or block via the same GitHub issue in the comment. 
 
-4. If there are duplicate votes from the same notes, only the final posted votes count. Votes can be withdrawn by posting a neutral vote. Non-voting nodes are considered neutral.
+4. If there are duplicate votes from the same nodes, the final posted votes before the closing deadline count. Votes can be withdrawn by posting a neutral vote. Non-voting nodes are considered neutral.
 
 ## How to vote
 
-1. Determine your decision and the string to sign. For example, for [DFIP #1](https://github.com/DeFiCh/dfips/issues/1), the decisions are either one of the following:
+1. Determine your decision and the string to sign. For example, for [DFIP #1](https://github.com/DeFiCh/dfips/issues/1), the decision options are:
 
     - Yes, I agree. Sign: `dfip-1 yes`
     - No, I do not agree. Sign: `dfip-1 no`
@@ -42,7 +42,7 @@ As on-chain voting is not yet available, temporary voting procedure would be as 
     $ defi-cli signmessage OWNER_ADDRESS "dfip-1 yes"
     ```
 
-3. Post your message and proof in the GitHub Issue as a message, using `8cmz6gLGJD7sTcjhkS6xG3CKkf68zKQHqF` as a sample owner's address:
+3. Post your message and proof in the GitHub Issue as a message, using `8cmz6gLGJD7sTcjhkS6xG3CKkf68zKQHqF` as a sample owner's address. Ensure that the whole command and string is posted to allow independent verification.
 
     ```sh
     $ defi-cli signmessage 8cmz6gLGJD7sTcjhkS6xG3CKkf68zKQHqF "dfip-1 yes"
