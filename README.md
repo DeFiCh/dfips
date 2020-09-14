@@ -27,7 +27,7 @@ As on-chain voting is not yet available, temporary voting procedure would be as 
 
 4. If there are duplicate votes from the same notes, only the final posted votes count. Votes can be withdrawn by posting a neutral vote. Non-voting nodes are considered neutral.
 
-### How to vote
+## How to vote
 
 1. Determine your decision and the string to sign. For example, for [DFIP #1](https://github.com/DeFiCh/dfips/issues/1), the decisions are either one of the following:
 
@@ -38,9 +38,26 @@ As on-chain voting is not yet available, temporary voting procedure would be as 
 2. Get access to your owner's wallet, and sign either of the strings given. For instance if you agree, you would use the following command to sign:
 
     ```sh
-    # OWNER_ADDRESS being your masternode's owner address
-    defi-cli signmessage "dfip-1 yes" OWNER_ADDRESS 
+    # OWNER_ADDRESS being your masternode's owner address with the collateral
+    $ defi-cli signmessage OWNER_ADDRESS "dfip-1 yes"
     ```
 
-3. At the closing date or block, a simple majority of the votes, excluding neutral votes, would determine the outcome of a decision.
+3. Post your message and proof in the GitHub Issue as a message, using `8cmz6gLGJD7sTcjhkS6xG3CKkf68zKQHqF` as a sample owner's address:
 
+    ```sh
+    $ defi-cli signmessage 8cmz6gLGJD7sTcjhkS6xG3CKkf68zKQHqF "dfip-1 yes"
+    H7LnPPnRScYON/dbAAQ7qKYJw41D2QocPghFfWfNJAMnTVYL6lPMSPESPpXPTL7Gp4rJJAnKCmfEICIS+P4G3U8=
+    ```
+
+    Other messages and comments can be posted alongside the proof as long as long as the proof and the vote is valid.
+
+4. At the closing date or block, a simple majority of the votes, excluding neutral votes, would determine the outcome of a decision. 
+
+### Validation
+
+If you would like to check for your vote validity, you can use the `verifymessage` RPC. For instance, enter the following to any DeFiChain node, it should respond with either a `true` or `false`.
+
+```sh
+$ defi-cli verifymessage 8cmz6gLGJD7sTcjhkS6xG3CKkf68zKQHqF H7LnPPnRScYON/dbAAQ7qKYJw41D2QocPghFfWfNJAMnTVYL6lPMSPESPpXPTL7Gp4rJJAnKCmfEICIS+P4G3U8= "dfip-1 yes"
+true
+```
