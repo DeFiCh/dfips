@@ -39,13 +39,13 @@ As on-chain voting is not yet available, temporary voting procedure would be as 
 
     ```sh
     # OWNER_ADDRESS being your masternode's owner address with the collateral
-    defi-cli signmessage OWNER_ADDRESS "dfip-1 yes"
+    $ defi-cli signmessage OWNER_ADDRESS "dfip-1 yes"
     ```
 
 3. Post your message and proof in the GitHub Issue as a message, using `8cmz6gLGJD7sTcjhkS6xG3CKkf68zKQHqF` as a sample owner's address:
 
     ```sh
-    defi-cli signmessage 8cmz6gLGJD7sTcjhkS6xG3CKkf68zKQHqF "dfip-1 yes"
+    $ defi-cli signmessage 8cmz6gLGJD7sTcjhkS6xG3CKkf68zKQHqF "dfip-1 yes"
     H7LnPPnRScYON/dbAAQ7qKYJw41D2QocPghFfWfNJAMnTVYL6lPMSPESPpXPTL7Gp4rJJAnKCmfEICIS+P4G3U8=
     ```
 
@@ -58,6 +58,6 @@ As on-chain voting is not yet available, temporary voting procedure would be as 
 If you would like to check for your vote validity, you can use the `verifymessage` RPC. For instance, enter the following to any DeFiChain node, it should respond with either a `true` or `false`.
 
 ```sh
-defi-cli verifymessage 8cmz6gLGJD7sTcjhkS6xG3CKkf68zKQHqF H7LnPPnRScYON/dbAAQ7qKYJw41D2QocPghFfWfNJAMnTVYL6lPMSPESPpXPTL7Gp4rJJAnKCmfEICIS+P4G3U8= "dfip-1 yes"
+$ defi-cli verifymessage 8cmz6gLGJD7sTcjhkS6xG3CKkf68zKQHqF H7LnPPnRScYON/dbAAQ7qKYJw41D2QocPghFfWfNJAMnTVYL6lPMSPESPpXPTL7Gp4rJJAnKCmfEICIS+P4G3U8= "dfip-1 yes"
 true
 ```
