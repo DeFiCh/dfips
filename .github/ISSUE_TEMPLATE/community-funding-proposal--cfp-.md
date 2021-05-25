@@ -1,7 +1,7 @@
 ---
 name: Community Funding Proposal (CFP)
 about: Requesting for fund for community development projects.
-title: 'CFP: <Insert title of your CFP here>'
+title: 'CFP: <Insert title of your CFP here> (<insert DFI amount> DFI)'
 labels: cfp, draft
 assignees: ''
 
