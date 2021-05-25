@@ -16,19 +16,19 @@ Optionally, you are also encouraged to submit a Reddit discussion thread as part
 Take note that this is a vote of confidence for DFIP, it carries no obligations by the developers to implement the suggestions. DeFiChain is a community projects. Pull requests can be submitted by community and reserved to be evaluated for safety and general community acceptance.
 -->
 
-**DFIP Overview**
+### DFIP Overview
 1. Requester(s): [Names and optionally GitHub usernames of requesters. e.g. John Doe @johndoe]
 2. Amount requested in DFI: [e.g. 500 DFI, note that only 1 tranche is allowed]
 3. Receiving address: [e.g. DFI address for receiving of the amount when approved]
 4. Reddit discussion thread (optional): [Provide a link to Reddit discussion thread]
 5. Proposal fee (50 DFI) txid: [Insert txid of 10 DFI sent to the burn address]
 
-**Describe your proposal**
+### Describe your proposal
 A clear and concise description on your proposal.
 
-**How does this DFIP benefit the DeFiChain community?**
+### How does this DFIP benefit the DeFiChain community?
 Describe how do you think this DFIP could potentially benefit the DeFiChain community
 
  <!-- Leave the following intact -->
-**Non-obligation**
+### Non-obligation
 I understand that vote of confidence for DFIP carries no obligations by any developers to implement the proposals. DeFiChain is a community projects. Pull requests can be submitted by community and reserved to be evaluated for safety and general community acceptance.
