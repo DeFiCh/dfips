@@ -18,10 +18,8 @@ Take note that this is a vote of confidence for DFIP, it carries no obligations 
 
 ### DFIP Overview
 1. Requester(s): [Names and optionally GitHub usernames of requesters. e.g. John Doe @johndoe]
-2. Amount requested in DFI: [e.g. 500 DFI, note that only 1 tranche is allowed]
-3. Receiving address: [e.g. DFI address for receiving of the amount when approved]
-4. Reddit discussion thread (optional): [Provide a link to Reddit discussion thread]
-5. Proposal fee (50 DFI) txid: [Insert txid of 10 DFI sent to the burn address]
+2. Reddit discussion thread (optional): [Provide a link to Reddit discussion thread]
+3. Proposal fee (50 DFI) txid: [Insert txid of 10 DFI sent to the burn address]
 
 ### Describe your proposal
 A clear and concise description on your proposal.
