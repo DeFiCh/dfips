@@ -29,7 +29,7 @@ As on-chain voting is not yet available, voting will be conducted using message 
 
 ## How to vote
 
-1. Determine your decision and the string to sign. Please use the simple letters for the whole vote message(i.e. <proposal name>-<vote option>)  For example, for [DFIP #1](https://github.com/DeFiCh/dfips/issues/1), the decision options are:
+1. Determine your decision and the string to sign. Please use the simple letters for the whole vote message(i.e. \<proposal name\>-\<vote option\>)  For example, for [DFIP #1](https://github.com/DeFiCh/dfips/issues/1), the decision options are:
 
     - Yes, I agree. Sign: `dfip-1-yes`
     - No, I do not agree. Sign: `dfip-1-no`
