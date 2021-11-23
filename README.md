@@ -29,23 +29,23 @@ As on-chain voting is not yet available, voting will be conducted using message 
 
 ## How to vote
 
-1. Determine your decision and the string to sign. For example, for [DFIP #1](https://github.com/DeFiCh/dfips/issues/1), the decision options are:
+1. Determine your decision and the string to sign. Please use the simple letters for the whole vote message(i.e. \<proposal name\>-\<vote option\>)  For example, for [DFIP #1](https://github.com/DeFiCh/dfips/issues/1), the decision options are:
 
-    - Yes, I agree. Sign: `dfip-1 yes`
-    - No, I do not agree. Sign: `dfip-1 no`
-    - Neutral. Sign: `dfip-1 neutral`.
+    - Yes, I agree. Sign: `dfip-1-yes`
+    - No, I do not agree. Sign: `dfip-1-no`
+    - Neutral. Sign: `dfip-1-neutral`.
 
 2. Get access to your owner's wallet, and sign either of the strings given. For instance if you agree, you would use the following command to sign:
 
     ```sh
     # OWNER_ADDRESS being your masternode's owner address with the collateral
-    $ defi-cli signmessage OWNER_ADDRESS "dfip-1 yes"
+    $ defi-cli signmessage OWNER_ADDRESS "dfip-1-yes"
     ```
 
 3. Post your message and proof in the GitHub Issue as a message, using `8cmz6gLGJD7sTcjhkS6xG3CKkf68zKQHqF` as a sample owner's address. Ensure that the whole command and string is posted to allow independent verification.
 
     ```sh
-    $ defi-cli signmessage 8cmz6gLGJD7sTcjhkS6xG3CKkf68zKQHqF "dfip-1 yes"
+    $ defi-cli signmessage 8cmz6gLGJD7sTcjhkS6xG3CKkf68zKQHqF "dfip-1-yes"
     H7LnPPnRScYON/dbAAQ7qKYJw41D2QocPghFfWfNJAMnTVYL6lPMSPESPpXPTL7Gp4rJJAnKCmfEICIS+P4G3U8=
     ```
 
@@ -58,6 +58,6 @@ As on-chain voting is not yet available, voting will be conducted using message 
 If you would like to check for your vote validity, you can use the `verifymessage` RPC. For instance, enter the following to any DeFiChain node, it should respond with either a `true` or `false`.
 
 ```sh
-$ defi-cli verifymessage 8cmz6gLGJD7sTcjhkS6xG3CKkf68zKQHqF H7LnPPnRScYON/dbAAQ7qKYJw41D2QocPghFfWfNJAMnTVYL6lPMSPESPpXPTL7Gp4rJJAnKCmfEICIS+P4G3U8= "dfip-1 yes"
+$ defi-cli verifymessage 8cmz6gLGJD7sTcjhkS6xG3CKkf68zKQHqF H7LnPPnRScYON/dbAAQ7qKYJw41D2QocPghFfWfNJAMnTVYL6lPMSPESPpXPTL7Gp4rJJAnKCmfEICIS+P4G3U8= "dfip-1-yes"
 true
 ```
