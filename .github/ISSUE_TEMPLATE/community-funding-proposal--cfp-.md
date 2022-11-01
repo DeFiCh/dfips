@@ -19,7 +19,7 @@ You are also encouraged to submit a Reddit discussion thread as part of CFP to a
 2. Amount requested in DFI: [e.g. 500 DFI, note that only 1 tranche is allowed]
 3. Receiving address: [e.g. DFI address for receiving of the amount when approved]
 4. Reddit discussion thread: [Provide a link to Reddit discussion thread]
-5. Proposal fee (10 DFI) txid: [Insert txid of 10 DFI sent to the burn address]
+5. Proposal fee txid _(1% of amount requested or 10 DFI, whichever is more [[ref](https://github.com/DeFiCh/dfips/issues/211)])_: [Insert txid sent to the [burn address](https://defiscan.live/address/8defichainBurnAddressXXXXXXXdRQkSm)]
 
 ### Describe the purpose
 A clear and concise description of why you are requesting for this fund.
