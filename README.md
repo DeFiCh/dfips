@@ -7,8 +7,8 @@ This document details how to participate in DFIPs and CFPs on DeFiChain. With th
 
 There are 2 key phases to take note of for those who wish to submit a proposal:
 
-1. Proposal submission: Every proposal has to be available on the blockchain for 130,000 blocks (approximately 45 days) before the vote becomes valid. This will be referred to as the proposal ingestion period.
-2. Proposal voting period: Upon submission, all proposals are eligible for voting in the next 260,000 blocks (~90 days) . For proposals that have fulfilled the 130,000-block ingestion period, masternodes can vote for them across the next 45 days (130,000 blocks).
+1. **Proposal submission:** Every proposal has to be available on the blockchain for 130,000 blocks (approximately 45 days) before the vote becomes valid. This will be referred to as the proposal ingestion period.
+2. **Proposal voting period:** Upon submission, all proposals are eligible for voting in the next 260,000 blocks (~90 days) . For proposals that have fulfilled the 130,000-block ingestion period, masternodes can vote for them across the next 45 days (130,000 blocks).
 
 
 <img width="643" alt="Screenshot 2023-01-25 at 7 06 23 PM" src="https://user-images.githubusercontent.com/99634821/214547700-2e4b4b39-2fe4-45cc-a277-22d5ad6e09b6.png">
