@@ -1,6 +1,6 @@
 # DFIPs and CFPs 
 
-This details how to participate in DFIPs and CFPs on DeFiChain. With the recent introduction of On-Chain Governance, it is important to follow all the steps outlined below to ensure your DFIPs/CFPs are submitted successfully on-chain. 
+This document details how to participate in DFIPs and CFPs on DeFiChain. With the recent introduction of On-Chain Governance, it is important to follow all the steps outlined below to ensure your DFIPs/CFPs are submitted successfully on-chain. 
 
 
 ## Overview
