@@ -18,9 +18,16 @@ For more information, please see this blog [here](https://blog.defichain.com/dfi
 
 ## Submit Proposals On-Chain
 
-### Step 1: Submission of DFIPs and CFPs on Github / Reddit
+### Step 1: Submission of DFIPs and CFPs on GitHub / Reddit
 
-   Submit your proposal on [Github](https://github.com/DeFiCh/dfips/issues) or via [Reddit](https://www.reddit.com/r/defiblockchain/). Engage the community and discuss with them on your proposal.
+* Userflow for GitHub submission:
+  * Submit your proposal on [GitHub](https://github.com/DeFiCh/dfips/issues) 
+  * Create a reddit link to facilitate discussion on your proposal (add the GitHub link of your proposal to your reddit post_
+  * Use the Github link for generating the command in **step 2**
+  
+* Userflow for Reddit submission:
+  * Submit your proposal on [Reddit](https://www.reddit.com/r/defiblockchain/). 
+  * Use the Reddit link for generating the command in **step 2**
 
 ### Step 2: Generating command on DeFiScan
 
