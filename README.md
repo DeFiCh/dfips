@@ -65,7 +65,7 @@ At the end block height for each proposal, a simple majority of the votes, exclu
 ### Step 1: Generating voting command on DeFiScan
 
 1. Under the `On-Chain Governance` tab on DeFiScan, select a proposal from the list that you want to vote on. This will bring you to the proposal details page. 
-2. Within the details page, select ‘Submit proposal’. You will be prompted to key in your masternode ID, followed by your voting choice. 
+2. Within the details page, select ‘Submit vote’. You will be prompted to key in your masternode ID, followed by your voting choice. 
 3. Once all details have been verified, a voting command line will be generated in the final step. 
 4. Copy the voting command line.
 
