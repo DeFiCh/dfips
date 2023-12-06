@@ -103,7 +103,7 @@ For CFPs, it requires a fee of either 1% of the amount requested or 10 DFI, whic
 
 ### 2. Are there other ways to submit my proposals?
 
-If you have downloaded DeFiChain mobile Light Wallet, you may also choose to submit your proposals on the app. You may find the submission button under the `Portfolio` tab.
+If you have downloaded DeFiChain mobile Light Wallet, you may also choose to submit your proposals on the app. You may find the submission button under the `Portfolio` tab and head to the "Governance" page to submit either a Community Funding Proposal or a DeFiChain Improvement Proposal. You will not need a full-node for this.
 
 ### 3. Are there other ways to vote on open proposals? 
 
